@@ -51,6 +51,9 @@ font-weight: 700;
     margin-left: auto;
     gap: 15px;
 }
+li :hover{
+    color: rgba(123, 123, 167, 0.938);
+}
 /* ------------------------------------------------------------------------------------ */
 
 
@@ -136,7 +139,7 @@ font-weight: 700;
     background-color: #E5E7EB;
     align-items: center;
     justify-content: center;
-    padding: 10% 10% 10% 8%;
+    padding: 8% 10% 8% 8%;
 }
 .curd{
     font-size: 36px;
@@ -176,6 +179,7 @@ font-weight: 700;
 .pop-title{
     color: white;
     font-size: 18px;
+    font-weight: bold;
 }
 .pop-button{
     flex-shrink: 2;
